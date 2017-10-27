@@ -21,8 +21,8 @@ public class ReviewsController {
 
 	@RequestMapping("/review")
 	public String getOneReview(@RequestParam(value = "id") Long id, Model model) {
-		model.addAttribute("course", repository.findOne(id));
-		return "course";
+		model.addAttribute("review", repository.findOne(id));
+		return "review";
 	}
 
 }

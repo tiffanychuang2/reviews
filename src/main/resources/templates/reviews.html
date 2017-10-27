@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 
 <html xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" type="text/css" href="./styles.css"/>
 
 <head>
 <title>Movie Reviews</title>
@@ -13,7 +14,7 @@
 	
 	<div th:each="review: ${reviews}">
 		<h2>
-			<a th:href="@{/review(id=${review.getId()})}" th:text="${review.getTitle()}"></a>
+			<a th:href="@{/review(id=${review.id})}" th:text="${review.title}"></a>
 		</h2>
 	</div>
 

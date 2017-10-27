@@ -23,7 +23,7 @@ public class ReviewRepository {
 		Review review4 = new Review(44444, "Spiderman: Homecoming", "/images/spidermanhomecoming.jpg",
 				"review category", "Wait a minute... You guys aren't the real Avengers! I can tell Hulk gives it away.",
 				"2017");
-		Review review5 = new Review(55555, "Thor: Ragnorak", "/image/thorragnarok.jpg", "review category",
+		Review review5 = new Review(55555, "Thor: Ragnorak", "/images/thorragnarok.jpg", "review category",
 				"She's too powerful, I have no hammer.", "2017");
 
 		reviews.put(review1.getId(), review1);

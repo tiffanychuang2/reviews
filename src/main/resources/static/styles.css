@@ -1,0 +1,39 @@
+:root {
+	--black: #00000;
+	--blue: #0000FF;
+	--green: #008000;
+	--white: #FFFFFF;
+}
+
+body {
+	background-size: 100%;
+	background-image: linear-gradient(rgba(90,0,4, 0.5), rgba(90,4,0, 0.5)),
+				url("./images/marvel.jpg");
+/*	background-repeat: no-repeat;*/
+	background-attachment: fixed;
+	background-color: red;
+	font-color: white;
+}
+
+a {
+	text-decoration: underline white;
+	font-color: white;
+}
+
+header {
+	text-align: center;
+	color: white;
+}
+
+h2 {
+	font-color: white;
+	text-decoration: none;	
+}
+
+body {
+	text-align: center;
+	color: var(--black);
+	font: 16px/1.5 'Raleway', sans-serif;
+}
+
+}
