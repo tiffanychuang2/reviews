@@ -7,16 +7,23 @@ public class Review {
 	private String title;
 	private String imageURL;
 	private String reviewCategory;
-	private String content;
+	private String quote;
+	private String content1;
+	private String content2;
+	private String content3;
 	private String releaseYear;
 
 	// constructors
-	public Review(long id, String title, String imageURL, String reviewCategory, String content, String releaseDate) {
+	public Review(long id, String title, String imageURL, String reviewCategory, String quote, String content1,
+			String content2, String content3, String releaseDate) {
 		this.id = id;
 		this.title = title;
 		this.imageURL = imageURL;
 		this.reviewCategory = reviewCategory;
-		this.content = content;
+		this.quote = quote;
+		this.content1 = content1;
+		this.content2 = content2;
+		this.content3 = content3;
 		this.releaseYear = releaseDate;
 	}
 
@@ -37,8 +44,20 @@ public class Review {
 		return reviewCategory;
 	}
 
-	public String getContent() {
-		return content;
+	public String getQuote() {
+		return quote;
+	}
+
+	public String getContent1() {
+		return content1;
+	}
+
+	public String getContent2() {
+		return content2;
+	}
+
+	public String getContent3() {
+		return content3;
 	}
 
 	public String getReleaseYear() {
@@ -62,8 +81,20 @@ public class Review {
 		this.reviewCategory = reviewCatogory;
 	}
 
-	public void setContent(String content) {
-		this.content = content;
+	public void setQuote(String quote) {
+		this.quote = quote;
+	}
+
+	public void setContent1(String content1) {
+		this.content1 = content1;
+	}
+
+	public void setContent2(String content2) {
+		this.content2 = content2;
+	}
+
+	public void setContent3(String content3) {
+		this.content3 = content3;
 	}
 
 	public void setReleaseYear(String releaseYear) {

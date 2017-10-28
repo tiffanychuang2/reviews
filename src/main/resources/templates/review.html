@@ -10,15 +10,30 @@
 <body>
 
 	<header>
-		<h1>Movie Review</h1>
+		<h1 th:text="${review.title.toUpperCase()}"></h1>
 	</header>
 
 	<div>
-		<h2 th:text="${review.title}"></h2>
-		<h2 th:text="${review.releaseYear}"></h2>
-		<h2 th:text="${review.reviewCategory}"></h2>
-		<img th:src="${review.imageURL}"></img>
-		<h2 th:text="${review.content}"></h2>
+		<!-- <h2 th:text="${review.title}"></h2> -->
+	
+		<section>
+			<h3 th:text="${review.releaseYear}"></h3>
+			<h3 th:text="${review.reviewCategory}"></h3>
+		</section>
+
+		<section>
+			<p th:text="${review.quote}"></p>
+		</section>
+
+		<section>
+			<img class="moviePhotos" th:src="${review.imageURL}"></img>
+		</section>
+
+		<section>
+			<p th:text="${review.content1}"></p>
+			<p th:text="${review.content2}"></p>
+			<p th:text="${review.content3}"></p>
+		</section>
 		<a href="http://localhost:8080/reviews">Back to home</a>
 	</div>
 

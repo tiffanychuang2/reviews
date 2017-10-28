@@ -1,39 +1,55 @@
-:root {
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+/*:root {
 	--black: #00000;
 	--blue: #0000FF;
 	--green: #008000;
 	--white: #FFFFFF;
-}
+}*/
 
 body {
+	font-family: Oswald, sans-serif;
+	font-weight: 400;
+	font-size: 100%;
 	background-size: 100%;
-	background-image: linear-gradient(rgba(90,0,4, 0.5), rgba(90,4,0, 0.5)),
+	background-image: linear-gradient(rgba(90,0,4, 0.6), rgba(90,4,0, 0.6)),
 				url("./images/marvel.jpg");
 /*	background-repeat: no-repeat;*/
 	background-attachment: fixed;
 	background-color: red;
 	font-color: white;
-}
-
-a {
-	text-decoration: underline white;
-	font-color: white;
+	text-align: center;
+	color: white;
+	/*font: 16px/1.5 'Oswald', sans-serif;*/
 }
 
 header {
+	font-weight:80;
+	font-family: Anton, sans-serif;
+	font-size: 250%;
 	text-align: center;
 	color: white;
 }
+
+a {
+	text-decoration: none;
+	font-color: white;
+}
+
 
 h2 {
 	font-color: white;
 	text-decoration: none;	
 }
 
-body {
-	text-align: center;
-	color: var(--black);
-	font: 16px/1.5 'Raleway', sans-serif;
+h2 a:visited {
+	text-decoration: none;
+	color: white;
 }
 
+h2 a:hover {
+	color: gray;
 }
+
+
