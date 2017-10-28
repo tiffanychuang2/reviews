@@ -14,8 +14,9 @@
 		
 		<div  class="menu" th:each="review: ${reviews}">
 			<p>
-				<img class="coverPhotos" th:src="${review.imageUrl}"/>
-					<br></br>
+				<a th:href="@{/review(id=${review.id})}">
+				<img class="coverPhotos" th:src="${review.imageUrl}"/></a>
+				<br></br>
 				<a th:href="@{/review(id=${review.id})}" th:text="${review.title}"/>
 			</p>
 		</div>
