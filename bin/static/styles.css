@@ -25,15 +25,33 @@ body {
 }
 
 header {
+	padding-top: 50px;
 	font-weight:80;
 	font-family: Anton, sans-serif;
 	font-size: 250%;
 	text-align: center;
 	color: white;
+	line-height: 90%;
 }
 
 a {
 	text-decoration: none;
+	font-color: white;
+}
+
+.moviePhotos {
+	padding-left: 10%;
+	height: 30%;
+	width: 30%;
+}
+
+.coverPhotos {
+	height: 30%;
+	width: 30%;
+}
+
+p {
+	font-size: 150%;
 	font-color: white;
 }
 
@@ -43,12 +61,12 @@ h2 {
 	text-decoration: none;	
 }
 
-h2 a:visited {
+p a:visited {
 	text-decoration: none;
 	color: white;
 }
 
-h2 a:hover {
+p a:hover {
 	color: gray;
 }
 

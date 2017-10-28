@@ -5,7 +5,7 @@ public class Review {
 	// instance variables
 	private long id;
 	private String title;
-	private String imageURL;
+	private String imageUrl;
 	private String reviewCategory;
 	private String quote;
 	private String content1;
@@ -14,11 +14,11 @@ public class Review {
 	private String releaseYear;
 
 	// constructors
-	public Review(long id, String title, String imageURL, String reviewCategory, String quote, String content1,
+	public Review(long id, String title, String imageUrl, String reviewCategory, String quote, String content1,
 			String content2, String content3, String releaseDate) {
 		this.id = id;
 		this.title = title;
-		this.imageURL = imageURL;
+		this.imageUrl = imageUrl;
 		this.reviewCategory = reviewCategory;
 		this.quote = quote;
 		this.content1 = content1;
@@ -36,8 +36,8 @@ public class Review {
 		return title;
 	}
 
-	public String getImageURL() {
-		return imageURL;
+	public String getImageUrl() {
+		return imageUrl;
 	}
 
 	public String getReviewCategory() {
@@ -73,8 +73,8 @@ public class Review {
 		this.title = title;
 	}
 
-	public void setImageURL(String imageURL) {
-		this.imageURL = imageURL;
+	public void setImageURL(String imageUrl) {
+		this.imageUrl = imageUrl;
 	}
 
 	public void setReviewCategory(String reviewCatogory) {

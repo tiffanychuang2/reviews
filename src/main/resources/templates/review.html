@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 
 <html xmlns:th="http://www.thymeleaf.org">
-<link rel="stylesheet" type="text/css" href="./styles.css"/>
 
 <head>
-<title>Movie Review</title>
+	<title>Movie Review</title>
+	<link rel="stylesheet" type="text/css" href="./styles.css"/>
 </head>
 
 <body>
@@ -26,7 +26,7 @@
 		</section>
 
 		<section>
-			<img class="moviePhotos" th:src="${review.imageURL}"></img>
+			<img class="moviePhotos" th:src="${review.imageUrl}" align="left"></img>
 		</section>
 
 		<section>
