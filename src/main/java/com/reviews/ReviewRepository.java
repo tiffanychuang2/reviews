@@ -19,8 +19,8 @@ public class ReviewRepository {
 				"\"Civil War reminds us it's OK to enjoy a few laughs, even while diabolical villains plot doom, outraged citizens demand accountability and your best pal mistrusts you.\"",
 				"2016");
 		Review review2 = new Review(22222, "Doctor Strange", "/images/doctorstrange.jpg", "Action",
-				"\"Wong. Just Wong? Like Adele? Or Aristotle. Drake. Bono... Eminem.\"", "\"\r\n"
-						+ "Cumberbatch, both a natural comedian and a subtle one, knows how to get a big laugh from nothing more than an arched eyebrow.\"",
+				"\"Wong. Just Wong? Like Adele? Or Aristotle. Drake. Bono... Eminem.\"",
+				"\"Cumberbatch, both a natural comedian and a subtle one, knows how to get a big laugh from nothing more than an arched eyebrow.\"",
 				"\"Lives up to its title, in mostly good ways.\"",
 				"\"Doctor Strange, intended to be a mind-bending, rule-breaking rebuke to the squares of superhero cinema, turns out to be a rebel in name only -- the textbook definition of a bad trip.\"",
 				"2016");
@@ -40,7 +40,7 @@ public class ReviewRepository {
 				"\"She's too powerful, I have no hammer.\"",
 				"\"In its own weird little way, Thor: Ragnarok manages to poke fun at the constant churn of myth and entertainment of which the movie itself is a part. It's a candy-colored cage of delights, but it is a cage nevertheless - and it doesn't hide that fact.\"",
 				"\"Thor: Ragnarok is packed tight with zooming space vehicles and noisy thunder battles, but the movie's extravagant excess is more narcotizing than energizing. Even poor Thor seems lost in all of it, and he's supposed to be its star.\"",
-				"\"\r\n" + "It's good to see Ruffalo liberated from the more masochistic portrait in Avengers: The Age of Ultron, and with a fresh partner in Tessa Thompson.\"",
+				"\"It's good to see Ruffalo liberated from the more masochistic portrait in Avengers: The Age of Ultron, and with a fresh partner in Tessa Thompson.\"",
 				"2017");
 
 		reviews.put(review1.getId(), review1);

@@ -9,26 +9,29 @@
 }*/
 
 body {
+	padding-left: 5%;
+	padding-right: 5%;
 	font-family: Oswald, sans-serif;
 	font-weight: 400;
 	font-size: 100%;
-	background-size: 100%;
+	background-size: cover;
 	background-image: linear-gradient(rgba(90,0,4, 0.6), rgba(90,4,0, 0.6)),
 				url("./images/marvel.jpg");
-/*	background-repeat: no-repeat;*/
 	background-attachment: fixed;
 	background-color: red;
 	font-color: white;
+	text-shadow: 1px 1px #000000;
 	text-align: center;
 	color: white;
-	/*font: 16px/1.5 'Oswald', sans-serif;*/
 }
 
 header {
-	padding-top: 50px;
+	padding-top: 20px;
 	font-weight:80;
+	letter-spacing: 2px;
 	font-family: Anton, sans-serif;
 	font-size: 250%;
+	text-shadow: 5px 5px #000000;
 	text-align: center;
 	color: white;
 	line-height: 90%;
@@ -39,19 +42,50 @@ a {
 	font-color: white;
 }
 
-.moviePhotos {
-	padding-left: 10%;
-	height: 30%;
-	width: 30%;
+.menu {
+	display: inline-block;
+	width: 350px;
+	height: 400px;
+	zoom: 1; /*for ie*/
+	display*: inline; /*for ie*/
+}
+
+.home a{
+	text-align: left;
+	font-color: white;
+}
+
+.home a:visited {
+	font-color: white;
+	text-decoration: none;
+}
+
+.home a:hover {
+	font-color: gray;
 }
 
 .coverPhotos {
+	height: 90%;
+	width: 90%;
+}
+
+.moviePhotos {
+	padding-left: 20px;
+	padding-right: 20px;
 	height: 30%;
 	width: 30%;
 }
 
+
 p {
 	font-size: 150%;
+	font-color: white;
+}
+
+p1 {
+	/*padding-right: 20px; 
+	padding-left: 20px;*/
+	font-size: 140%;
 	font-color: white;
 }
 

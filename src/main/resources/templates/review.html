@@ -22,7 +22,7 @@
 		</section>
 
 		<section>
-			<p th:text="${review.quote}"></p>
+			<blockquote class="quote" th:text="${review.quote}">></blockquote>
 		</section>
 
 		<section>
@@ -30,11 +30,15 @@
 		</section>
 
 		<section>
-			<p th:text="${review.content1}"></p>
-			<p th:text="${review.content2}"></p>
-			<p th:text="${review.content3}"></p>
+			<p1 th:text="${review.content1}"></p1><br></br><br></br>
+			<p1 th:text="${review.content2}"></p1><br></br><br></br>
+			<p1 th:text="${review.content3}"></p1><br></br><br></br>
 		</section>
-		<a href="http://localhost:8080/reviews">Back to home</a>
+		
+		<section>
+		<a class="home" href="http://localhost:8080/reviews">Back to home</a>
+		</section>
+		
 	</div>
 
 </body>

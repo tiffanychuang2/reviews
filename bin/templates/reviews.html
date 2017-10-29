@@ -12,7 +12,7 @@
 			<h1>MARVEL MOVIE REVIEWS</h1>
 		</header>
 		
-		<div  class="menu" th:each="review: ${reviews}">
+		<div class="menu" th:each="review: ${reviews}">
 			<p>
 				<a th:href="@{/review(id=${review.id})}">
 				<img class="coverPhotos" th:src="${review.imageUrl}"/></a>
