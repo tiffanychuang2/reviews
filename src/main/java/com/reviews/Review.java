@@ -8,19 +8,21 @@ public class Review {
 	private String imageUrl;
 	private String reviewCategory;
 	private String quote;
+	private String summary;
 	private String content1;
 	private String content2;
 	private String content3;
 	private String releaseYear;
 
 	// constructors
-	public Review(long id, String title, String imageUrl, String reviewCategory, String quote, String content1,
-			String content2, String content3, String releaseDate) {
+	public Review(long id, String title, String imageUrl, String reviewCategory, String quote, String summary,
+			String content1, String content2, String content3, String releaseDate) {
 		this.id = id;
 		this.title = title;
 		this.imageUrl = imageUrl;
 		this.reviewCategory = reviewCategory;
 		this.quote = quote;
+		this.summary = summary;
 		this.content1 = content1;
 		this.content2 = content2;
 		this.content3 = content3;
@@ -46,6 +48,10 @@ public class Review {
 
 	public String getQuote() {
 		return quote;
+	}
+
+	public String getSummary() {
+		return summary;
 	}
 
 	public String getContent1() {
@@ -83,6 +89,10 @@ public class Review {
 
 	public void setQuote(String quote) {
 		this.quote = quote;
+	}
+
+	public void setSummary(String summary) {
+		this.summary = summary;
 	}
 
 	public void setContent1(String content1) {

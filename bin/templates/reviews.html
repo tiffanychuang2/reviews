@@ -2,24 +2,24 @@
 
 <html xmlns:th="http://www.thymeleaf.org">
 
-	<head>
-		<title>Movie Reviews</title>
-		<link rel="stylesheet" type="text/css" href="./styles.css"/>
-	</head>
+<head>
+	<title>Movie Reviews</title>
+	<link rel="stylesheet" type="text/css" href="./styles.css"/>
+</head>
+
+<body>
+	<header>
+		<h1>MARVEL MOVIE REVIEWS</h1>
+	</header>
 	
-	<body>
-		<header>
-			<h1>MARVEL MOVIE REVIEWS</h1>
-		</header>
-		
-		<div class="menu" th:each="review: ${reviews}">
-			<p>
-				<a th:href="@{/review(id=${review.id})}">
+	<div class="menu" th:each="review: ${reviews}">
+		<p>
+			<a th:href="@{/review(id=${review.id})}">
 				<img class="coverPhotos" th:src="${review.imageUrl}"/></a>
 				<br></br>
 				<a th:href="@{/review(id=${review.id})}" th:text="${review.title}"/>
 			</p>
 		</div>
-	
+		
 	</body>
-</html>
+	</html>

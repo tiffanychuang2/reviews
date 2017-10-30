@@ -1,12 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Anton);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 
-/*:root {
-	--black: #00000;
-	--blue: #0000FF;
-	--green: #008000;
-	--white: #FFFFFF;
-}*/
+a {
+	text-decoration: none;
+	font-color: white;
+}
+
+blockquote {
+	color: white;
+	text-shadow: 2px 2px #000000;
+	font-size: 200%;
+}
 
 body {
 	padding-left: 5%;
@@ -15,7 +19,9 @@ body {
 	font-weight: 400;
 	font-size: 100%;
 	background-size: cover;
-	background-image: linear-gradient(rgba(90,0,4, 0.6), rgba(90,4,0, 0.6)),
+	/*background-image: linear-gradient(rgba(90,4,0, 0.8), rgba(35,33,33,0.8)),
+				url("./images/marvel.jpg");*/
+	background-image: linear-gradient(rgba(155,16,10,0.8), rgba(35,33,33,0.8)),
 				url("./images/marvel.jpg");
 	background-attachment: fixed;
 	background-color: red;
@@ -23,6 +29,11 @@ body {
 	text-shadow: 1px 1px #000000;
 	text-align: center;
 	color: white;
+}
+
+h2 {
+	font-color: white;
+	text-decoration: none;	
 }
 
 header {
@@ -37,9 +48,61 @@ header {
 	line-height: 90%;
 }
 
-a {
-	text-decoration: none;
+p {
+	font-size: 150%;
 	font-color: white;
+	text-shadow: 3px 3px #000000;
+}
+	
+p a:visited {
+	text-decoration: none;
+	color: white;
+	text-shadow: 3px 3px #000000;
+}
+
+p a:hover {
+	color: gray;
+	text-shadow: 3px 3px #000000;
+}
+
+p1 {
+	font-size: 140%;
+	font-color: white;
+	text-shadow: 2px 2px #000000;
+}
+
+p2 {
+	color: gray;
+	text-shadow: 2px 2px #000000;
+	}
+
+p2 a:visited {
+	color: gray;
+	text-shadow: 2px 2px #000000;
+}
+
+p2 a:hover {
+	color: white;
+	text-shadow: 2px 2px #000000;
+}
+
+p3 {
+	font-size: 120%;
+	text-shadow: 2px 2px #000000;
+}
+
+/*.coverPhotos {
+	height: 90%;
+	width: 90%;
+}*/
+
+.coverPhotos {
+	height: 432px;
+	width: 288px;
+}
+	
+a.home {
+	float: right;
 }
 
 .menu {
@@ -50,58 +113,13 @@ a {
 	display*: inline; /*for ie*/
 }
 
-.home a{
-	text-align: left;
-	font-color: white;
-}
-
-.home a:visited {
-	font-color: white;
-	text-decoration: none;
-}
-
-.home a:hover {
-	font-color: gray;
-}
-
-.coverPhotos {
-	height: 90%;
-	width: 90%;
-}
-
 .moviePhotos {
-	padding-left: 20px;
 	padding-right: 20px;
+	padding-bottom: 60px;
 	height: 30%;
 	width: 30%;
 }
 
-
-p {
-	font-size: 150%;
-	font-color: white;
+.yearGenre {
+	text-align: left;
 }
-
-p1 {
-	/*padding-right: 20px; 
-	padding-left: 20px;*/
-	font-size: 140%;
-	font-color: white;
-}
-
-
-h2 {
-	font-color: white;
-	text-decoration: none;	
-}
-
-p a:visited {
-	text-decoration: none;
-	color: white;
-}
-
-p a:hover {
-	color: gray;
-}
-
-

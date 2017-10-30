@@ -15,14 +15,18 @@
 
 	<div>
 		<!-- <h2 th:text="${review.title}"></h2> -->
-	
+			
 		<section>
-			<h3 th:text="${review.releaseYear}"></h3>
-			<h3 th:text="${review.reviewCategory}"></h3>
+			<blockquote class="quote" th:text="${review.quote}">></blockquote>
+		</section>
+ 
+ 		<section>
+		<p3 th:text="${review.summary}"></p3>
 		</section>
 
 		<section>
-			<blockquote class="quote" th:text="${review.quote}">></blockquote>
+			<h3 class="yearGenre" th:text="${review.releaseYear} + ' | ' + ${review.reviewCategory}"></h3>
+			<!-- <h3 th:text="${review.reviewCategory}"></h3> -->
 		</section>
 
 		<section>
@@ -30,13 +34,27 @@
 		</section>
 
 		<section>
-			<p1 th:text="${review.content1}"></p1><br></br><br></br>
-			<p1 th:text="${review.content2}"></p1><br></br><br></br>
-			<p1 th:text="${review.content3}"></p1><br></br><br></br>
+			<p1 th:text="${review.content1}"></p1>
+				<br></br>
+				<br></br>
+				<br></br>
+			<p1 th:text="${review.content2}"></p1>
+				<br></br>
+				<br></br>
+				<br></br>
+				<p1 th:text="${review.content3}"></p1>
+				<br></br>
+				<br></br>
+				<br></br>
 		</section>
 		
 		<section>
+		<br></br>
+		<br></br>
+		<br></br>
+		<p2>
 		<a class="home" href="http://localhost:8080/reviews">Back to home</a>
+		</p2>
 		</section>
 		
 	</div>
