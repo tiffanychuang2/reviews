@@ -19,8 +19,6 @@ body {
 	font-weight: 400;
 	font-size: 100%;
 	background-size: cover;
-	/*background-image: linear-gradient(rgba(90,4,0, 0.8), rgba(35,33,33,0.8)),
-				url("./images/marvel.jpg");*/
 	background-image: linear-gradient(rgba(155,16,10,0.8), rgba(35,33,33,0.8)),
 				url("./images/marvel.jpg");
 	background-attachment: fixed;
@@ -90,11 +88,6 @@ p3 {
 	font-size: 120%;
 	text-shadow: 2px 2px #000000;
 }
-
-/*.coverPhotos {
-	height: 90%;
-	width: 90%;
-}*/
 
 .coverPhotos {
 	height: 432px;
